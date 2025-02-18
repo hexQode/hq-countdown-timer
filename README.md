@@ -24,11 +24,22 @@ Include jQuery and the plugin:
 ### Basic Setup
 ```html
 <div class="hq-countdown" data-target-date="2024-12-31T23:59:59">
-  <div class="hq-countdown-item">
-    <div class="hq-number hq-days">00</div>
-    <div class="hq-label">Days</div>
-  </div>
-  <!-- Add hours, minutes, seconds items -->
+    <div class="hq-countdown-item">
+        <div class="hq-number hq-days">00</div>
+        <div class="hq-label">Days</div>
+    </div>
+    <div class="hq-countdown-item">
+        <div class="hq-number hq-hours">00</div>
+        <div class="hq-label">Hours</div>
+    </div>
+    <div class="hq-countdown-item">
+        <div class="hq-number hq-minutes">00</div>
+        <div class="hq-label">Minutes</div>
+    </div>
+    <div class="hq-countdown-item">
+        <div class="hq-number hq-seconds">00</div>
+        <div class="hq-label">Seconds</div>
+    </div>
 </div>
 ```
 
@@ -59,7 +70,7 @@ Override these classes in your CSS:
 ```
 
 ## Demo
-[View Live Demo](https://yourusername.github.io/hq-countdown-timer/)
+[View Live Demo](https://hexqode.com/hq-countdown-timer)
 
 ## License
 MIT
